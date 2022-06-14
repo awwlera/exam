@@ -1,0 +1,18 @@
+.weekContainer {
+
+    .cardContent {
+        border-top: 1px solid $white-opacity;
+        padding-top: 5px;
+    }
+
+    .day-list {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .card-day {
+        max-width: 45px;
+    }
+}

@@ -1,0 +1,14 @@
+.hourContainer {
+    .cardContent {
+        border-top: 1px solid $white-opacity;
+        padding-top: 5px;
+    }
+    
+    .hour-item {
+        text-align: center;
+    }
+
+    .weather-icon {
+        margin-bottom: 5px;
+    }
+}

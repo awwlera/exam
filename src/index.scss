@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;700;900&display=swap');
+@import './App.scss';
+
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  font-size: 18px;
+  color: $white;
+}
+
+h1,
+h2,
+p,
+ol,
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  display: block;
+  width: 100%;
+}
+
+.app {
+  background-image: url('./img/bg.webp');
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.container {
+  padding: 0 20px;
+  margin: auto;
+}
+
+.cardHolder {
+  width: 90%;
+  margin: 0 auto 20px;
+  padding: 10px;
+  background-color: $blue-opacity;
+  border-radius: 10px;
+}
+
+.cardTitle {
+  margin-bottom: 5px;
+  & p {
+    font-size: 12px;
+    font-weight: 400;
+    text-transform: uppercase;
+    color: $white-opacity;
+  }
+  
+  & span {
+    padding-right: 3px;
+  }
+}
+
+.cityName {
+  font-size: 30px;
+}
+
+.temp {
+  font-size: 120px;
+  padding: 0 0 0 20px;
+}
+
+.time {
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+
+.card-temp {
+  font-weight: 400;
+}
